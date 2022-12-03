@@ -1,0 +1,25 @@
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.shape{
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    left: 15%;
+    top: 15%;
+    background: #FF0099;
+    background-image: linear-gradient(45deg,#3023AE 0%,#FF0099 100%);
+    border-radius: 67% 33% 47% 53% / 35% 26% 74% 65% 
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
